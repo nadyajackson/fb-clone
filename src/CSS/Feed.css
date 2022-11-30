@@ -1,0 +1,23 @@
+@media only screen and (min-width: 320px){
+
+
+.feed{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+}
+@media only screen and (min-width: 1024px){
+    .feed{
+        padding: 30px 75px;
+        
+    }
+}
+@media only screen and (min-width: 1440px){
+    .feed{
+        padding: 30px 150px;
+    }
+}
